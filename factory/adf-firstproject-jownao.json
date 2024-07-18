@@ -1,0 +1,9 @@
+{
+	"name": "adf-firstproject-jownao",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "815c8c3c-f26b-4aea-acbf-9fee694da020",
+		"tenantId": "2c1cddb1-aa5e-4439-88ed-f1d3d292eabc"
+	}
+}

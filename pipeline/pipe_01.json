@@ -1,0 +1,22 @@
+{
+	"name": "pipe_01",
+	"properties": {
+		"activities": [
+			{
+				"name": "Wait1",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 1
+				}
+			}
+		],
+		"folder": {
+			"name": "adf_01_pipeline01"
+		},
+		"annotations": [],
+		"lastPublishTime": "2024-04-01T16:26:40Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
