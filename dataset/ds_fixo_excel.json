@@ -1,0 +1,29 @@
+{
+	"name": "ds_fixo_excel",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_datalake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Plan1",
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "plan_cor.xlsx",
+				"fileSystem": "excelfiles"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
